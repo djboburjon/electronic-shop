@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: "Merriweather", serif;
 }
 /* Top navbar */
 .top-navbar {
@@ -106,11 +107,11 @@
 .nav-item .nav-link:hover {
   color: #ffc800;
 }
-.dropdown-menu a {
+.dropdown-menu li a {
   color: white;
   transition: 0.5s ease;
 }
-.dropdown-menu a:hover {
+.dropdown-menu li a:hover {
   background-color: rgb(67, 0, 86);
   color: #ffc800;
 }
@@ -211,3 +212,45 @@
   }
 }
 /* home content */
+
+/* product cards */
+#product-cards {
+  margin-top: 100px;
+}
+#product-cards h1 {
+  color: #ffc800;
+  text-shadow: 1px 1px 1px #000;
+  border-bottom: 2px solid #ffc800;
+}
+#product-cards .card h3 {
+  font-size: 25px;
+  color: black;
+}
+#product-cards .card p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: black;
+}
+.star i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.checked {
+  color: #ffc800;
+}
+#product-cards .card h2 {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+#product-cards .card h2 span {
+  float: right;
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  #product-cards .card h3 {
+    font-size: 18px;
+  }
+}
+/* product cards */
