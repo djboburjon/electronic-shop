@@ -223,7 +223,7 @@
   border-bottom: 2px solid #ffc800;
 }
 #product-cards .card h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 #product-cards .card p {
@@ -250,7 +250,7 @@
 }
 @media screen and (max-width: 1000px) {
   #product-cards .card h3 {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 /* product cards */
@@ -410,3 +410,26 @@
   }
 }
 /* banner */
+
+/* other cards */
+#other {
+  margin-top: 50px;
+}
+#other .card {
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+}
+#other .card h3 {
+  margin-top: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+#other .card p {
+  margin-top: 10px;
+  color: white;
+  text-shadow: 0 1px 1px black;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+/* other cards */
