@@ -670,5 +670,8 @@ html {
   #side2 {
     height: 60vh;
   }
+  #newslater {
+    margin-top: 200px;
+  }
 }
 /* login */
