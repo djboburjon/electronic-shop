@@ -674,6 +674,11 @@ html {
     margin-top: 200px;
   }
 }
+@media screen and (max-width: 500px) {
+  .input2 input {
+    width: 90%;
+  }
+}
 /* login */
 
 /* about */
